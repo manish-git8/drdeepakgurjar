@@ -243,22 +243,20 @@ h3 { font-size: 1.2rem; }
   text-decoration: none;
 }
 
-.logo-mark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: var(--primary);
-  color: var(--accent);
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 0.8rem;
-  border-radius: 9px;
-  border: 1px solid rgba(245, 158, 11, 0.35);
+.logo-img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
-.logo-mark-sm { width: 30px; height: 30px; font-size: 0.7rem; }
+.logo-img-sm {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
 
 .logo-text {
   font-family: var(--font-serif);
